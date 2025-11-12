@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548203713413",
+    "project_id": "curren-see-b24d6",
+    "storage_bucket": "curren-see-b24d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548203713413:android:b8cee32df0f35a0f956aec",
+        "android_client_info": {
+          "package_name": "com.example.currensee_pkr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548203713413-11t878egnmp3e1l20obf80tgt5l5b6cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUjkpHLqvfLgUbd-ykFCmukjrmrKujTGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548203713413-11t878egnmp3e1l20obf80tgt5l5b6cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

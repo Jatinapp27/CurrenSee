@@ -1,0 +1,51 @@
+name: currensee_pkr
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # Using a modern SDK version
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  font_awesome_flutter: ^10.7.0
+
+  # --- FIREBASE ---
+  # By removing the specific version numbers, 'flutter pub get' will
+  # automatically find the latest versions that are compatible with each other.
+  # This is the fix for the "Failed to update packages" error.
+
+  # --- OTHER PACKAGES ---
+
+  # For date/time formatting (used in history)
+  intl: ^0.18.1
+
+  # For calling currency APIs
+  http: ^1.2.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  google_sign_in: ^6.1.6 # Add this line (or the latest version)
+  cloud_firestore: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Updated lints to be more modern
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/images/
